@@ -91,6 +91,8 @@ export default function Workout() {
   `
   const testWorkout = [
     { id: 3, reps: 5, time: 0 },
+    { id: 0, reps: 0, time: 5 },
+    { id: 5, reps: 5, time: 0 },
     { id: 4, reps: 0, time: 10 }
   ]
 
@@ -156,10 +158,11 @@ width: 100%;
 height: 100vh;
 display: grid;
 grid-template-rows: 1rem 2fr 1fr;
+text-align: center;
 `
   const ExcerciseImage = styled.img`
 width: 100%;
-height: 50vh;
+max-width:500px;
 object-fit: cover;
 `
   const ExcerciseControlls = styled.div`
