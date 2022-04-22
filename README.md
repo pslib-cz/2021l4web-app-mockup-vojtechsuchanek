@@ -1,4 +1,5 @@
 # Workout aplikace
+- Mobilní aplikace na cvičení.
 ## Zpuštění aplikace
  - Ke zpuštění aplikace je potřeba nainstalovat nodejs, přejít do umístění aplikace, připojit npm balíčky pomocí ```npm install``` a zadat do příkazového řádku ``` npm run dev ```
 ## Funkce aplikace
